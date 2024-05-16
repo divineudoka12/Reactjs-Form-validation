@@ -1,0 +1,178 @@
+
+
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+  }
+  
+  body {
+    background-color: #141C2F;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins, sans-serif;
+  }
+  
+  .container {
+    width: 60vw;
+    height: 70vh;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  #header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+  }
+  
+  .light {
+    margin-top: 0.4rem;
+    font-size: 1.8rem;
+  }
+  
+  .sun {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  
+  .inputDiv {
+    height: 4.5rem;
+    width: 100%;
+    margin-top: 1rem;
+    position: relative;
+    padding: 0 3rem;
+    background-color: #1F2A48;
+    border-radius: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input {
+    height: 100%;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.7rem;
+    width: 70%;
+    background-color: #1F2A48;
+    color: #fff;
+  }
+  
+  input::placeholder {
+    color: rgb(218, 213, 213);
+  }
+  
+  .search {
+    font-size: 2rem;
+    position: absolute;
+    top: 1rem;
+    left: 0.8rem;
+    color: rgb(45, 93, 165);
+  }
+  
+  button {
+    background-color: #1271DE;
+    outline: none;
+    border: none;
+    display: block;
+    height: 80%;
+    margin-top: 0.5rem;
+    width: 13rem;
+    border-radius: 0.7rem;
+    color: #fff;
+    font-size: 1.8rem;
+  }
+  
+  .main {
+    height: 60vh;
+    width: 100%;
+    padding: 3.5rem;
+    margin-top: 3rem;
+    background-color: #1F2A48;
+    border-radius: 0.7rem;
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  .section {
+    width: 80%;
+  }
+  
+  .img {
+    height: 10rem;
+    width: 10rem;
+  }
+  
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+  }
+  
+  .user__details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .username {
+    font-size: 1.6rem;
+    color: #fff;
+  }
+  
+  
+  .bio {
+    margin-top: 1.3rem;
+    color: rgb(218, 213, 213);
+    font-size: 1.4rem;
+  }
+  
+  .acctDetails {
+    height: 6rem;
+    width: 100%;
+    background-color: #141C2F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    padding: 0 3rem;
+  }
+  
+.a {
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bottomtext {
+    color: rgb(218, 213, 213);
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+  
+.repo,
+.repoNumber,
+.followersList,
+.followersNumber,
+.followingList,
+.followingNumber {
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
+}
+
+  
