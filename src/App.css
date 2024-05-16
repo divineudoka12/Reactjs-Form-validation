@@ -1,0 +1,59 @@
+.app {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 100vh;
+}
+form {
+  border: blueviolet solid 1px;
+  padding: 0px 60px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: blueviolet;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+
+input {
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: blueviolet solid 1px;
+}
+
+button {
+  width: 280px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+span {
+  color: red;
+  font-size: 15px;
+  padding: 3px;
+  display: none;
+}
+
+input:invalid[Focused="true"] ~ span {
+  display: block;
+}
+
+input:invalid[Focused="true"]{
+  border: 1px solid red;
+}
